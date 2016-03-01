@@ -1,0 +1,54 @@
+﻿Build started 04.09.2015 07:42:35.
+     1>Project "F:\Studium\Monash\GP_CPP\Battleship\FIT2049 - Week 5 Code\FIT2049 - Week 5 Code.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FIT2049 - Week 4.vcxproj, FIT2049 - Week 5 Code.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"F:\Studium\Monash\GP_CPP\DirectXTK-master" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BattleshipGame.cpp GameMenu.cpp Main.cpp Window.cpp
+         Window.cpp
+         Main.cpp
+         GameMenu.cpp
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\gamemenu.cpp(73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         BattleshipGame.cpp
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(298): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(304): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(714): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(726): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(742): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(754): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(766): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(778): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(790): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>f:\studium\monash\gp_cpp\battleship\fit2049 - week 5 code\battleshipgame.cpp(802): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Studium\Monash\GP_CPP\Battleship\Debug\Battleship.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Studium\Monash\GP_CPP\Battleship\Debug\Battleship.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Studium\Monash\GP_CPP\Battleship\Debug\Battleship.lib" /MACHINE:X86 Debug\AIPlayer.obj
+         Debug\BattleshipGame.obj
+         Debug\Button.obj
+         Debug\Camera.obj
+         Debug\Cursor.obj
+         Debug\Direct3D.obj
+         Debug\Game.obj
+         Debug\GameBoard.obj
+         Debug\GameMenu.obj
+         Debug\GameObject.obj
+         Debug\InputController.obj
+         Debug\Main.obj
+         Debug\Mesh.obj
+         Debug\Shader.obj
+         Debug\Ship.obj
+         Debug\SpinningObject.obj
+         Debug\Texture.obj
+         Debug\TexturedShader.obj
+         Debug\Window.obj
+         "F:\Studium\Monash\GP_CPP\DirectXTK-master\DirectXTK-master\Bin\Desktop_2015\Win32\Debug\DirectXTK.lib"
+     1>AIPlayer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         FIT2049 - Week 5 Code.vcxproj -> F:\Studium\Monash\GP_CPP\Battleship\Debug\Battleship.exe
+     1>Done Building Project "F:\Studium\Monash\GP_CPP\Battleship\FIT2049 - Week 5 Code\FIT2049 - Week 5 Code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.35
